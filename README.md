@@ -1,4 +1,5 @@
 # GitHub MCP Server
+[![smithery badge](https://smithery.ai/badge/@RLeek/test-mcp)](https://smithery.ai/server/@RLeek/test-mcp)
 
 MCP Server for the GitHub API, enabling file operations, repository management, search functionality, and more.
 
@@ -302,6 +303,14 @@ MCP Server for the GitHub API, enabling file operations, repository management, 
 For detailed search syntax, see [GitHub's searching documentation](https://docs.github.com/en/search-github/searching-on-github).
 
 ## Setup
+
+### Installing via Smithery
+
+To install GitHub API MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@RLeek/test-mcp):
+
+```bash
+npx -y @smithery/cli install @RLeek/test-mcp --client claude
+```
 
 ### Personal Access Token
 [Create a GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) with appropriate permissions:
