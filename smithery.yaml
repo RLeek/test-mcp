@@ -16,7 +16,7 @@ startCommand:
     |-
     (config) => ({
       command: 'node',
-      args: ['dist/index.js'],
+      args: ['dist/src/index.js'],
       env: {
         GITHUB_PERSONAL_ACCESS_TOKEN: config.githubPersonalAccessToken
       }
