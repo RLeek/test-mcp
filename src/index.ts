@@ -24,8 +24,8 @@ import {
   GitHubRateLimitError,
   GitHubConflictError,
   isGitHubError,
-} from './common/errors.js';
-import { VERSION } from "./common/version.js";
+} from '../common/errors.js';
+import { VERSION } from "../common/version.js";
 
 const server = new Server(
   {
